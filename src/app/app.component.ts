@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pipe_in_angular';
+  todaydate = new Date();
+  jsonval ={ name:'rupesh', age:'21' ,addres:{ city:'pune', hometown:'nanded'}};
+  days=
+['sun', 'mon','tus','won','ths','sat','fry'];
 }
